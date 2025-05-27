@@ -1,0 +1,10 @@
+<library path="rrtstar_planner_plugin">  <!--Correspond to add_library() in CMakeLists.txt-->
+	<class name="rrtstar_planner::RRTStarPlanner" 
+        type="rrtstar_planner::RRTStarPlanner" 
+        base_class_type="nav2_core::GlobalPlanner">
+	  <description>This is an example plugin which produces straight path.</description>
+	</class>
+</library>
+
+<!--class name -> Correspond to YAML config file's name-->
+<!--type -> Correspond to Class in C++-->
